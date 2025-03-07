@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітання для мам</title>
+    <style>
+        /* Основні стилі */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Контейнер для привітань */
+        .greetings {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            color: #333;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .greetings p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        /* Головний контейнер галереї */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Оформлення карток */
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 280px;
+            text-align: center;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        .message {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Анімації */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Адаптація для мобільних пристроїв */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+                padding: 10px;
+            }
+
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 90%;
+            }
+
+            .greetings {
+                width: 90%;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Дорогі мами! Вітаємо вас зі святом весни!</h1>
+
+    <div class="greetings">
+        <p>Дорогі, найкращі наші мами! Від щирого серця вітаємо вас зі святом весни! Ви — найніжніші, наймудріші, найтурботливіші. Нехай у ваших серцях завжди живе радість, а кожен день буде наповнений любов'ю та теплом. Дякуємо вам за вашу доброту, ласку та турботу.</p>
+        
+        <p>Нехай у вашому житті завжди буде багато світлих і щасливих митей. Бажаємо вам здоров'я, миру, гармонії та натхнення. Нехай здійснюються всі ваші мрії, а поруч завжди будуть люблячі люди. Зі святом!</p>
+
+        <p>Любі наші матусі! Ви – справжні чарівниці, які творять дива кожного дня. Ваші обійми – найтепліші, ваші слова – наймудріші, а ваша любов – безмежна. Бажаємо вам тільки приємних моментів у житті, багато посмішок, щасливих днів та щирої радості!</p>
+    </div>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-01.jpg" alt="Учень з мамою">
+            <p class="message">Зі святом весни! Щастя, радості та любові!</p>
+        </div>
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-18.jpg" alt="Учень з мамою">
+            <p class="message">Нехай кожен день буде наповнений теплом і радістю!</p>
+        </div>
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-24.jpg" alt="Учень з мамою">
+            <p class="message">Бажаємо здоров'я, миру та світла у душі!</p>
+        </div>
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-28.jpg" alt="Учень з мамою">
+            <p class="message">Нехай весна дарує вам тільки приємні миті!</p>
+        </div>
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-35.jpg" alt="Учень з мамою">
+            <p class="message">Дякуємо за вашу любов та підтримку!</p>
+        </div>
+        <div class="card">
+            <img src="images/photo_2025-03-07_04-37-45.jpg" alt="Учень з мамою">
+            <p class="message">Ви – найкращі у світі! Зі святом!</p>
+        </div>
+    </div>
+
+</body>
+</html>
